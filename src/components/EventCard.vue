@@ -1,4 +1,5 @@
 <template>
+<!--router-link 니깐 클릭할 수 있는 형태이다-->
   <router-link class="event-link" :to="{ name: 'event-show', params: { id: event.id } }">
     <div class="event-card -shadow">
       <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
