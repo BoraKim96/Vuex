@@ -71,6 +71,34 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 5587703,
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "e",
+      "description": "e",
+      "location": "e",
+      "date": "2020-06-03T05:52:00.000Z",
+      "time": "20:00",
+      "attendees": []
+    },
+    {
+      "id": 3304439,
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "wer",
+      "description": "rw",
+      "location": "rwe",
+      "date": "2020-06-02T05:58:00.000Z",
+      "time": "21:00",
+      "attendees": []
     }
   ]
 }
