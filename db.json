@@ -71,7 +71,8 @@
           "name": "Mary Gordon"
         }
       ]
-    },{
+    },
+    {
       "id": 4,
       "title": "House Warming Party",
       "date": "Aug 28 2018",
@@ -142,7 +143,8 @@
           "name": "Mary Gordon"
         }
       ]
-    },{
+    },
+    {
       "id": 7,
       "title": "Concert",
       "date": "Aug 28 2018",
@@ -237,6 +239,48 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 4350451,
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "VueX",
+      "description": "VueX Lecture",
+      "location": "KOSTA",
+      "date": "2020-06-22T05:44:00.000Z",
+      "time": "8:00",
+      "attendees": []
+    },
+    {
+      "id": 1321665,
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "VueX2",
+      "description": "VueX Lecture",
+      "location": "KOSTA",
+      "date": "2020-06-22T05:46:00.000Z",
+      "time": "13:00",
+      "attendees": []
+    },
+    {
+      "id": 2438597,
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "VueX3",
+      "description": "Vuex3 Lecture",
+      "location": "KOSTA",
+      "date": "2020-06-22T05:47:00.000Z",
+      "time": "16:00",
+      "attendees": []
     }
   ]
 }
