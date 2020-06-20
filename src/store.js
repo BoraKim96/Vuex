@@ -37,9 +37,12 @@ export default new Vuex.Store({
         commit('ADD_EVENT',event)
       })
     },
-    fetchEvents({commit}) {
-      EventService.getEvents()
+    //why payload inside of {} : The payload in both Actions and Mutations can be
+    //                           a single variable OR an object
+    fetchEvents({commit},{perPage, page}) {
+      EventService.getEvents(perPage, page)
       .then(response => {
+        console.log('Total events are' + response.headers['x-total-count'])
         commit('SET_EVENT', response.data)
       })
       .catch(error => {
